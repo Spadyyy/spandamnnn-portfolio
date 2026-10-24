@@ -37,4 +37,4 @@ Import this repository into Vercel and use the default Next.js build settings. N
 
 ## Asset note
 
-The current hero photo uses the GitHub avatar URL. The original profile photo and resume PDF have not yet been committed as public assets, so the page does not currently offer a downloadable copy of the uploaded resume.
+The hero uses your GitHub profile avatar. The portfolio includes a print-friendly resume page at `/resume`; use **Print / Save as PDF** in your browser to export it. This page is a web-formatted resume, not the original uploaded PDF.
