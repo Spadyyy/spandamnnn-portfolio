@@ -7,7 +7,7 @@ export const metadata: Metadata = {
 
 export default function ResumePage() {
   return <main className="resume-page">
-    <div className="resume-toolbar"><a href="/">← Back to portfolio</a><button onClick={() => window.print()}>Print / Save as PDF</button></div>
+    <div className="resume-toolbar"><a href="/">← Back to portfolio</a><span>Use Ctrl+P or Cmd+P to print / save as PDF</span></div>
     <article className="resume-sheet">
       <header className="resume-header"><h1>Spandan Saha</h1><p>Madhyamgram, Barasat, Kolkata, West Bengal</p><p><a href="mailto:sahaspandan0@gmail.com">sahaspandan0@gmail.com</a> · +91 83368 20736</p><p><a href="https://linkedin.com/in/spandan0212">linkedin.com/in/spandan0212</a> · <a href="https://github.com/Spadyyy">github.com/Spadyyy</a></p></header>
       <section><h2>Education</h2><div className="resume-row"><strong>Institute of Engineering and Management</strong><span>Jul 2024 – May 2028</span></div><p>Bachelor of Technology in Computer Science · Kolkata, West Bengal</p><div className="resume-row"><strong>Sudhir Memorial Institute</strong><span>Apr 2010 – Mar 2024</span></div><p>AISSE: 94% · AISSCE: 84.2%</p><p><b>Relevant coursework:</b> Security and Privacy in TOR Network, Advanced System Security Design, DDoS Attacks and Defenses, Machine Learning, Cyber Security Fundamentals, Cloud Computing, Prompt Essentials.</p></section>
